@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    top: 0;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #d8d8d8;
+    height: 80px;
+    text-align: center;
+}
+
+.nome {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #f72032;
+    text-align: center;
+}
+
+.nome1 {
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 10px;
+    color: #f72032;
+    text-align: center;
+}
+
+.primeira {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: rgb(248, 52, 52);
+}
+
