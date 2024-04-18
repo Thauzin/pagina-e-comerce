@@ -48,7 +48,7 @@ body {
     display: inline-block; /* para que o elemento se comporte como um contêiner de bloco e permita o alinhamento vertical */
     text-align: center; /* para alinhar horizontalmente */
     position: relative; /* para posicionar a imagem dentro do contêiner */
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .imagem img {
