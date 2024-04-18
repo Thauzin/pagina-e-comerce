@@ -20,7 +20,7 @@ body {
 
 .nome1 {
     font-size: 30px;
-    margin-left: 350px;
+    margin-left: 320px;
     margin-top: 10px;
     color: #f72032;
     text-align: center;
@@ -44,3 +44,17 @@ body {
     color: rgb(248, 52, 52);
 }
 
+.imagem {
+    display: inline-block; /* para que o elemento se comporte como um contêiner de bloco e permita o alinhamento vertical */
+    text-align: center; /* para alinhar horizontalmente */
+    position: relative; /* para posicionar a imagem dentro do contêiner */
+    margin-left: 50px;
+}
+
+.imagem img {
+    width: 120px; /* ajuste o tamanho da imagem conforme necessário */
+    height: 120px; /* mantém a proporção da imagem */
+    position: absolute; /* permite o posicionamento absoluto */
+    bottom: 0; /* alinha a imagem na parte inferior do contêiner */
+    left: 50%; /* alinha a imagem ao centro horizontalmente */
+}
