@@ -1,0 +1,12 @@
+.absoluto {
+    position: relative;
+    border: 1px solid black;
+    padding: 20px;
+    }
+    .filho-absoluto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid blue;
+    padding: 10px;
+    }
