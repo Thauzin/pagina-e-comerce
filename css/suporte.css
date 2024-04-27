@@ -74,3 +74,39 @@ body {
     bottom: 0; /* alinha a imagem na parte inferior do contêiner */
     left: 50%; /* alinha a imagem ao centro horizontalmente */
 }
+
+.ajuda {
+    text-align: center;
+}
+
+.ajudar{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 440px;
+    height: 60px;
+    width: 500px;
+    border: 1px solid #000000; 
+    border-radius: 20px;
+}
+
+.ajudar:focus {
+    border-color: #f72032; /* Altere a cor conforme desejado */
+    box-shadow: 0 0 5px #f72032; /* Adicione uma sombra azul ao receber foco */ 
+}
+
+.lupa img {
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.lupa:hover{
+    transform: scale(1.1);
+}
+
+.pesquisar{
+    display: inline;
+    display: flex;
+    align-items: center; 
+}

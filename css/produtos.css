@@ -68,8 +68,8 @@ body {
 }
 
 .imagem img {
-    width: 120px; /* ajuste o tamanho da imagem conforme necessário */
-    height: 120px; /* mantém a proporção da imagem */
+    width: auto; /* ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* mantém a proporção da imagem */
     position: absolute; /* permite o posicionamento absoluto */
     bottom: 0; /* alinha a imagem na parte inferior do contêiner */
     left: 50%; /* alinha a imagem ao centro horizontalmente */
@@ -113,7 +113,7 @@ body {
 .preco {
     padding-top: 1px; 
     margin-top: 1px; 
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
 }
 
