@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    top: 0;
+    font-family: Snell Roundhand, cursive;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #d8d8d8;
+    height: 80px;
+    text-align: center;
+}
+
+.nome {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #f72032;
+    text-align: center;
+}
+
+.nome1 {
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
+    color: #f72032;
+    text-align: center;
+    
+}
+
+.nome2 {
+    font-size: 20px;
+    margin-left: 100px;
+    padding-left: 200px; 
+    margin-top: 10px;
+    color: #e6b845; 
+    text-align: center;
+}
+
+.nome2:hover {
+    text-decoration: underline;
+    color: #d5b360; 
+}
+
+.primeira {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: rgb(248, 52, 52);
+}
+
+.imagem {
+    display: inline-block; /* para que o elemento se comporte como um contêiner de bloco e permita o alinhamento vertical */
+    text-align: center; /* para alinhar horizontalmente */
+    position: relative; /* para posicionar a imagem dentro do contêiner */
+    margin-left: 80px;
+}
+
+.imagem img {
+    width: 120px; /* ajuste o tamanho da imagem conforme necessário */
+    height: 120px; /* mantém a proporção da imagem */
+    position: absolute; /* permite o posicionamento absoluto */
+    bottom: 0; /* alinha a imagem na parte inferior do contêiner */
+    left: 50%; /* alinha a imagem ao centro horizontalmente */
+}
