@@ -74,3 +74,38 @@ body {
     bottom: 0; /* alinha a imagem na parte inferior do contêiner */
     left: 50%; /* alinha a imagem ao centro horizontalmente */
 }
+
+.sun {
+    text-align: center;
+    color: #f72032;
+}
+
+.product {
+    background-color: #d8d8d8; 
+    width: 300px;
+    height: 300px;  
+    margin-left: 100px;
+
+}
+
+.product:hover{
+    cursor: pointer;
+}
+
+.img img {
+   padding-left: 35px;
+   padding-top: 10px;
+
+}
+
+.padrao {
+    text-align: center;
+    font-size: 15px;
+}
+
+.preco {
+    padding-top: 1px; 
+    margin-top: 1px; 
+    font-size: 15px;
+    text-align: center;
+}
