@@ -80,13 +80,14 @@ body {
 }
 
 .ajudar{
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 440px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 420px;
     height: 60px;
     width: 500px;
     border: 1px solid #000000; 
     border-radius: 20px;
+    font-size: 20px;
 }
 
 .ajudar:focus {
@@ -96,7 +97,7 @@ body {
 
 .lupa img {
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 5px;
     height: 50px;
     width: 50px;
 }
