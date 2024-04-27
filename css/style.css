@@ -1,5 +1,5 @@
 body {
-    background-image: url(full.jpg);
+    background-image: url(/imagens/testeeee.png); 
     background-size: cover;
   }
   
@@ -9,7 +9,7 @@ body {
   width: 500px;
   height: 350px;
   margin-left: 400px;
-  margin-top: 150px;
+  margin-top: 170px;
   text-align: center;
   margin-bottom: 5px; 
   
@@ -17,20 +17,21 @@ body {
   
   h1 {
     text-align: center;
-    color:#fb0b7b; 
+    color: rgb(0, 0, 0); 
+    padding-top: 10px;
   }
   
   h2{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    color: #fb0b7b;
+    color: #000000;
     font-weight: bold;
   }
   
   .extra{
     margin-top: 30px;
     margin-bottom: 10px;
-    color: #fb0b7b;
+    color: #000000;
     font-weight: bold;
   }
   
@@ -38,13 +39,13 @@ body {
     margin-top: 1px;
     height: 30px;
     width: 300px;
-    border: 1px solid #fb0b7b;
+    border: 3px solid #970505;
     text-align: center; 
   }
   
   .btn {
     margin-top: 30px;
-    background-color: #fb0b7b;
+    background-color: #970505;
     color: white;
     height: 30px;
     width: 100px;
@@ -53,7 +54,7 @@ body {
   }
   
   .btn:hover {
-    background-color: #ce5285;  
+    background-color: #c40606;  
   }
   
   .btn2 {

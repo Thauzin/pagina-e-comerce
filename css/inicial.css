@@ -27,6 +27,20 @@ body {
     text-align: center;
 }
 
+.nome2 {
+    font-size: 20px;
+    margin-left: 100px;
+    padding-left: 200px; 
+    margin-top: 10px;
+    color: #e6b845; 
+    text-align: center;
+}
+
+.nome2:hover {
+    text-decoration: underline;
+    color: #d5b360; 
+}
+
 .primeira {
     display: flex;
     justify-content: left;
