@@ -73,3 +73,29 @@ body {
     bottom: 0; /* alinha a imagem na parte inferior do contêiner */
     left: 50%; /* alinha a imagem ao centro horizontalmente */
 }
+
+section {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin-left: 26%;
+
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5 ease;
+    border-radius: 20px;
+    margin: 1%;
+
+}
+
+section img:hover {
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    cursor: pointer;
+}
