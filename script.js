@@ -12,3 +12,10 @@ function Validar(){
         errou.textContent= "Por favor insira as credenciais corretas";
     }
 }
+
+const btn = document.getElementById("car"); 
+
+btn.addEventListener('click', ()=>{  
+    btn.textContent = "ADICIONADO" 
+    btn.style.backgroundColor = "red"; 
+}); 
