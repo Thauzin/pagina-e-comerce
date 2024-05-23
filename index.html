@@ -10,14 +10,16 @@
         <h1 class="log"> LOGIN </h1>
         <header>
             <h2><strong> Username </strong></h2>
-            <input class="resposta" type="text" name="txtNome" placeholder="Email or username">
+            <input id="user" class="resposta" type="text" name="txtNome" placeholder="Email or username">
         </header>
         <header>
             <h2 class="extra"><strong> Password </strong></h2>
-            <input class="resposta" type="password" name="txtNome" placeholder="Password">
+            <input id="senha" class="resposta" type="password" name="txtNome" placeholder="Password">
+            <div id="errou"> </div> 
         </header>
         <div>
-            <a href="inicial.html"> <button class="btn" type="button">LOGIN</button> </a>
+           <button class="btn" type="button" onclick="Validar()" >LOGIN</button> 
+           
         </div>
         <div>
             <button class="btn2" type="button"> Forget Password? </button> 
@@ -25,5 +27,9 @@
 
     </header>
   
+<script src="script.js">
+
+</script>
+
 </body>
 </html>
