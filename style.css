@@ -76,3 +76,7 @@ body {
     text-decoration: underline;
   }
 
+  .resposta:focus::placeholder {
+    color: #c40606; 
+  }
+
