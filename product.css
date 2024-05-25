@@ -97,6 +97,7 @@ body {
     width: 280px;
     height: 100px;
     padding-top: 20px; 
+    padding-left: 15px;
 }
 
 .padrao {
@@ -143,6 +144,15 @@ ul.tam {
     gap: 10px;
     margin-left: 12px;
 }
+
+ul.reto { 
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove as bolinhas da lista, se necessário */
+    display: flex;
+    flex-direction: row;
+}
+ 
 
 li.button {
     background-color: #d8d8d8;
