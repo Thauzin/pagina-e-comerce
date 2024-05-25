@@ -90,7 +90,7 @@ body {
 
 .product:hover {
     cursor: pointer;
-    border: 3px outset #f72032;
+    border: 5px outset #e6b845;
 }
 
 .img img {
