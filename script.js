@@ -9,7 +9,9 @@ function Validar(){
 
     else {
         var errou = document.getElementById('errou');
-        errou.textContent= "Por favor insira as credenciais corretas";
+        errou.textContent= "Por favor insira as credenciais corretas!";
+        errou.style.color = "#970505";
+
     }
 }
 
@@ -114,6 +116,23 @@ gran.addEventListener('click', ()=>{
 
 
 
+function Validar2(){
+    var cadastro = document.getElementById('cadastro').value;
+    var cadastro1 = document.getElementById('cadastro1').value;
+    var cadastro2 = document.getElementById('cadastro2').value;
+    var cadastro3 = document.getElementById('cadastro3').value; 
 
+    if (cadastro === "" || cadastro1 === "" || cadastro2 === "" || cadastro3 === "" ){ 
+        var errado = document.getElementById('errado');
+        errado.textContent= "Por favor complete todas as informações!";
+        errado.style.color = "#970505";
+        
+    }
+
+    else {
+        window.location.href = "inicial.html"; 
+
+    }
+}
 
 

@@ -1,0 +1,104 @@
+body {
+    background-image: url(/imagens/oculos.png); 
+    background-size: cover;
+  }
+  
+  .login {
+  background-color: rgba(255, 255, 255, 0.75);
+  display: block;
+  width: 500px;
+  height: 350px;
+  margin-left: 400px;
+  margin-top: 170px;
+  text-align: center;
+  margin-bottom: 5px; 
+  
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    padding-top: 10px;
+  }
+  
+  h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .extra{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .resposta1 {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border: 3px solid #970505;
+    text-align: left; 
+    margin-left: 18px;
+  }
+
+  .resposta5 {
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    border: 3px solid #970505;
+    text-align: left; 
+    margin-left: 18px;
+  }
+
+  .resposta {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border: 3px solid #970505;
+    text-align: left; 
+    margin-left: 18px;
+  }
+
+  
+  .btn {
+    margin-top: 25px;
+    background-color: #970505;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: none;
+  
+  }
+  
+  .btn:hover {
+    background-color: #c40606;  
+  }
+  
+  .btn2 {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+    margin-top: 7px;
+  }
+  
+  .btn2:hover{
+    text-decoration: underline;
+  }
+ 
+  /* Estilo do placeholder quando o input está em foco */
+  .resposta5:focus::placeholder {
+    color: #c40606; 
+  }
+
+  .resposta:focus::placeholder {
+    color: #c40606; 
+  }
