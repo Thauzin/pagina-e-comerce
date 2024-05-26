@@ -111,3 +111,68 @@ body {
     display: flex;
     align-items: center; 
 }
+
+.caixinhas {
+    width: 250px;
+    height: 100px;
+    background-color: #d8d8d8;
+    margin-left: 60px; 
+    border-radius: 5%;
+    position: relative;
+    padding: 0;
+    align-items: center;
+}
+
+.caixinhas:hover {
+    background-color: #686868;  
+    cursor: pointer;
+}
+
+
+.caixa {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    z-index: 9999; 
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+
+.caixa img {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    z-index: 9999; 
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.txt {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    padding-left: 90px;
+    z-index: 9999; 
+}
+
+.txt2 {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 100px;
+    padding-left: 90px;
+    padding-top: 25px;
+    z-index: 9999; 
+    color: #4b4a4a;
+}
+
+ul.duvidas  {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
