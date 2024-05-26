@@ -130,7 +130,15 @@ function Validar2(){
     }
 
     else {
-        window.location.href = "inicial.html"; 
+        if(cadastro2 != cadastro3) {
+            var errado = document.getElementById('errado');
+            errado.textContent= "As senhas não são iguais!";
+            errado.style.color = "#970505"; 
+        }
+        else {
+            window.location.href = "inicial.html"; 
+        }
+        
 
     }
 }
